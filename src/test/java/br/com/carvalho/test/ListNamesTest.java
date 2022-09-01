@@ -2,7 +2,7 @@ package br.com.carvalho.test;
 
 import org.junit.Test;
 
-import br.com.carvalho.main.ListPeople;
+import br.com.carvalho.main.ListNames;
 
 
 
@@ -20,14 +20,14 @@ import br.com.carvalho.main.ListPeople;
  *
  */
 
-public class ListPeopleTest {
+public class ListNamesTest {
 	
 	
 	@Test
 	public void testList() {
 		
-		ListPeople list = new ListPeople();
-		list.generoLista(2);
+		ListNames list = new ListNames();
+		list.NomePessoas();
 		
 	
 		

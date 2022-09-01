@@ -11,8 +11,8 @@ public class AppList {
 
 	public  void main(String[] args) {
 		
-		ListPeople list = new ListPeople();
-		list.generoSexo();
+		ListNames list = new ListNames();
+		list.NomePessoas();
 
 	}
 
