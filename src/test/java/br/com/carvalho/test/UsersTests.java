@@ -10,6 +10,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
+import br.com.carvalho.main.AppList;
 import br.com.carvalho.main.User;
 import br.com.carvalho.main.UserService;
 
@@ -60,6 +61,11 @@ public class UsersTests {
 			
 			
 		}
+	
+	public void aappTest() {
+		AppList app = new AppList();
+	
+	}
 
 
 }

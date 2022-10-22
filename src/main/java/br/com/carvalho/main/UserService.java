@@ -19,8 +19,6 @@ private ArrayList<User> users = new ArrayList<User>();
 	
 	
 	public  ArrayList<User>  getUsers() {
-		
-		
 		return users;
 	}
 	
@@ -46,18 +44,17 @@ private ArrayList<User> users = new ArrayList<User>();
 		
 		ArrayList<String> strList = new ArrayList<String>(Arrays.asList(nomes));
 		
-		UserService service = new UserService();
+	
 
 		User user2 = new User(strList);
 		users.add(user2);
 		
 		ArrayList<String> namesF = user2.getName();
 		
-		
-		
-		for(String n: namesF) {
+		//uso de expressao lambda abaixo
+		namesF.forEach(n -> {
 			System.out.println("nomes femininos: " + n);
-		}
+		});
 		
 		
 	}
