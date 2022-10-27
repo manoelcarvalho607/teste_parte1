@@ -44,9 +44,9 @@ public class UsersTests {
 			
 		
 		ArrayList<String> nomesF = new ArrayList<String>();
-		nomesF.add("Maria");
-		nomesF.add("Daniele");
-		nomesF.add("Edna");
+		nomesF.add("F-Maria");
+		nomesF.add("F-Daniele");
+		nomesF.add("F-Edna");
 		
 		User user = new User(nomesF);
 			
@@ -54,7 +54,7 @@ public class UsersTests {
 			//String genre = user.getGenre();
 			
 			
-			String[] name = {"Maria","Daniele","Edna"};
+			String[] name = {"F-Maria","F-Daniele","F-Edna"};
 			List<String> nameList = new ArrayList<String>(Arrays.asList(name));
 			
 			Assert.assertEquals(nameList, expectedName);
